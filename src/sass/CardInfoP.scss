@@ -1,0 +1,22 @@
+@use "./variables" as v;
+
+.card{
+    &-img-top{
+        height: 150px;
+        border-radius: 0;
+    }
+}
+
+.ability{
+    background-color: v.$colorPrimary;
+    color: v.$colorTextPrimary;
+    font-weight: bold;
+}
+
+.ProfileImg{
+    width:150px;
+    height:150px;
+}
+.boxInfo{
+    width: 320px;
+}
